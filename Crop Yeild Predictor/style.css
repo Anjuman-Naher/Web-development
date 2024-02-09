@@ -1,0 +1,169 @@
+/*General Section*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+	clear: both;
+	overflow: hidden;
+}
+.header-section {
+	width: 100%;
+/*	border: 1px solid red;*/
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: #FFF;
+
+}
+.header-content{
+	width: 988px;
+/*	border: 1px solid red;*/
+	margin: 0 auto;
+}
+.logo {
+/*	border: 1px solid red;*/
+	width: 200px;
+	float: left;
+}
+.logo img{
+	width: 150px;
+}
+.navbar{
+/*	border: 1px solid red;*/
+	width: 780px;
+	float: left;
+	margin: 50px auto;
+}
+.navbar ul {
+	list-style: none;
+	text-align: right;
+}
+.navbar ul li{
+	display: inline-block;
+	margin left: 30px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	padding: 0 10px;
+	color:  #624029;
+	font-size: 18px;
+	font-family: sans-serif;
+/*	border: 1px solid chocolate;*/
+	margin-left: 20px;
+}
+.navbar ul li a:hover {
+	color: #258e37;
+	text-decoration: underline;
+}
+.navbar img{
+	width: 18px;
+}
+/*Banner-Section*/
+.banner-section{
+	position: relative;
+}
+.text {
+	text-align: left;
+	width: 530px;
+	margin: 0 auto;
+	position: absolute;
+	left: 20%;
+	top: 150px;
+	color: #157f32;
+	font-size: 25px;
+}
+.text p{
+	font-size: 15px;
+	color: black;
+	margin-top: 5px;
+}
+/*From*/
+.from-section {
+	width: 100%;
+	position: relative;
+/*	border: 1px solid red;*/
+
+}
+/*.from-section img{
+	opacity: 0.5;
+}*/
+.from-content{
+/*	border: 1px solid red;*/
+	background-color: rgba(0,0,0,0.5);
+	width:1200px;
+	margin: 0 30px;
+	position: absolute;
+	left: 16%;
+	top: 150px;
+	
+
+}
+.from{
+	float: left;
+	width: 400px;
+	margin: 20px;
+	padding: 25px;
+	border: 1px solid #A8C79C;
+	border-radius: 5px;
+	background-color: #A8C79C;
+
+}
+.from h1{
+	text-align: center;
+	color: #044c1a ;
+
+}
+.from p{
+	margin-top: 15px;
+	font-size: 18px;
+
+}
+.from input[type = "text"]{
+	border: 2px solid #0b722b;
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 5px;
+	width: 250px;
+}
+.from button{
+	margin-top: 20px;
+	border: 2px solid #0b722b ;
+	border-radius: 4px;
+	background-color: #0b722b;
+	padding: 5px;
+
+}
+.from button a{
+	text-decoration: none;
+	color: #fff;
+}
+.result{
+	float: left;
+	width: 400px;
+	margin-left: 20px;
+	margin-top: 240px;
+	padding: 25px;
+	border: 2px solid #A8C79C;
+	border-radius: 5px;
+	background-color: #A8C79C;
+}
+.result h1{
+	text-align: center;
+	color: #044c1a ;
+
+}
+.result p{
+	margin-top: 15px;
+	font-size: 18px;
+
+}
+.result input[type = "text"]{
+	border: 2px solid #0b722b;
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-left: 70px;
+	width: 250px;
+}
