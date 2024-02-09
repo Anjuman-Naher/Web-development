@@ -1,0 +1,204 @@
+/* General CSS  */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+	clear: both;
+	overflow: hidden;
+}
+
+/* Header Section */
+
+.header-section {
+	width: 100%;
+	background: #F7FDFE;
+/*	border: 1px solid red;*/
+}
+
+.header-content {
+	width: 988px;
+	margin: 0 auto;
+/*	border: 1px solid red;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.logo {
+	width: 100px;
+	float: left;
+/*	border: 1px solid red;*/
+}
+
+.logo img {
+	margin-left: 10px;
+}
+
+.navbar {
+	width: 850px;
+	float: left;
+/*	border: 1px solid red;*/
+}	
+
+.navbar ul {
+	list-style: none;
+	text-align: right;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	transition: background 2s;
+/*	border: 1px solid red;*/
+}
+
+.navbar ul li a:hover {
+	background: #22C1DD;
+	color: #fff;
+	border-radius: 8px;
+}
+
+/* Banner Section */
+.banner-section {
+	position: relative;
+}
+
+.banner-content {
+	text-align: center;
+	width: 650px;
+	margin: 0 auto;
+	position: absolute;
+	left: 27%;
+	bottom: 50px;
+	color: #fff;
+}
+
+/* About Section */
+.about-section {
+	width: 100%;
+}
+.about-section:hover h1 {
+	margin-left: 50px;
+}
+.about-content {
+	width: 988px;
+	margin: 0 auto;
+/*	border: 1px solid red;*/
+	text-align: center;
+	padding: 20px 50px;
+}
+
+.about-content h1 {
+	color: #22C1DD;
+	margin-bottom: 20px;
+	transition: margin-left 2s;
+}
+
+.about-content p {
+	width: 600px;
+/*	border: 1px solid red;*/
+	margin: 25px auto;
+}
+
+/* Team Section */
+.team-section {
+	width: 100%;
+/*	border: 1px solid red;*/
+	background-color: #22C1DD ;
+}
+
+.team-content {
+	width: 988px;
+/*	border: 1px solid red;*/
+	margin: 0 auto;
+}
+
+.team-content h1 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	color: #fff;
+}
+
+.team {
+}
+
+.team-member {
+	float: left;
+	width: 287px;
+	text-align: center;
+	padding: 20px;
+/*	margin: auto 20px;*/
+/*	padding: 20px 50px;*/
+
+/*	border: 1px solid red;*/
+}
+
+.team-member img {}
+
+.team-member p {
+	color: #fff;
+	padding-top: 10px;
+}
+.footer-section{
+	width: 100%;
+	background: #3f3b3b;
+/*	border: 1px solid red;*/
+    padding-bottom: 32px;
+}
+
+.footer-content {
+	width: 988px;
+	margin: 0 auto;
+	border-bottom-style:solid;
+	border-color: #afa7a7;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.text {
+	width: 500px;
+	float: left;
+	padding-top: 15px;
+}
+.text ul {
+	list-style: none;
+	text-align: left;
+
+}
+.text ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+.text ul li a{
+	text-decoration: none;
+	color: white;
+	transition: color 2s;
+}
+.text ul li a:hover{
+	 color: #22C1DD;
+}
+.icon {
+	width: 480px;
+	float: left;
+/*	border: 1px solid red;*/
+}
+.icon ul{
+	list-style: none;
+	padding-left: 320px;
+}
+.icon ul li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.icon ul li a{
+	text-decoration: none;
+}
+
